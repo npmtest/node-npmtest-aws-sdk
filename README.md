@@ -1,6 +1,6 @@
 # npmtest-aws-sdk
 
-#### test coverage for  [aws-sdk (v2.42.0)](https://github.com/aws/aws-sdk-js)  [![npm package](https://img.shields.io/npm/v/npmtest-aws-sdk.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-aws-sdk) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-aws-sdk.svg)](https://travis-ci.org/npmtest/node-npmtest-aws-sdk)
+#### basic test coverage for  [aws-sdk (v2.45.0)](https://github.com/aws/aws-sdk-js)  [![npm package](https://img.shields.io/npm/v/npmtest-aws-sdk.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-aws-sdk) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-aws-sdk.svg)](https://travis-ci.org/npmtest/node-npmtest-aws-sdk)
 
 #### AWS SDK for JavaScript
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-aws-sdk/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-aws-sdk/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-aws-sdk/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-aws-sdk/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-aws-sdk/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-aws-sdk/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-aws-sdk/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-aws-sdk/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-aws-sdk/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-aws-sdk/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-aws-sdk/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-aws-sdk/build/coverage.html/index.html)
 
@@ -97,13 +97,13 @@
         "lib": "lib"
     },
     "dist": {
-        "shasum": "f9c3644bbe5de2190df59bbd5c654e431ca24577",
-        "tarball": "https://registry.npmjs.org/aws-sdk/-/aws-sdk-2.42.0.tgz"
+        "shasum": "045dbd323630170968306dc849d793dbb1e4444d",
+        "tarball": "https://registry.npmjs.org/aws-sdk/-/aws-sdk-2.45.0.tgz"
     },
     "engines": {
         "node": ">= 0.8.0"
     },
-    "gitHead": "55a8f68435522014fa8bd4ed1bd77f5459a79da8",
+    "gitHead": "8bc99767740a3142b8e2b4c519588260bb69d79f",
     "homepage": "https://github.com/aws/aws-sdk-js",
     "keywords": [
         "api",
@@ -170,7 +170,8 @@
     },
     "types": "index.d.ts",
     "typings": "index.d.ts",
-    "version": "2.42.0"
+    "version": "2.45.0",
+    "bin": {}
 }
 ```
 
